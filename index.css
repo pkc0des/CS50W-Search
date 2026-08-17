@@ -35,6 +35,13 @@ body {
     color: white;
 }
 
+#container #images_text {
+    position: absolute;
+    top: 245px;
+    right: 390px;
+    color: rgb(0, 98, 255);
+}
+
 #container #search_form {
     display: flex;
     flex-direction: column;

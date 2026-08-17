@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+   
+    height: 100vh;
+    background-color: hsl(228, 4%, 15%);
+}
+
+#google-label {
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    color: white;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+hr {
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    color:  hsl(228, 4%, 20%);
+    border: 1px solid hsl(228, 4%, 20%);;
+}
+
+#container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100vw;
+    margin-top: 70px;
+    margin-left: 30px;
+    color: rgba(216, 215, 215, 0.897);
+}
+
+#container h2 {
+    font-size: 1.4em;
+}
+
+#container div label {
+    width: 50%;
+}
+

@@ -34,6 +34,13 @@ hr {
     gap: 15px;
 }
 
+#search_form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
 #container h2 {
     font-size: 1.4em;
 }
@@ -42,7 +49,7 @@ hr {
     position: absolute;
     width: 125px;
     height: 50px;
-    bottom: 100px;
+    bottom: 10px;
     text-align: center;
     color: white;
     font-weight: bold;
@@ -64,5 +71,7 @@ hr {
     background-color: transparent;
     border: 1px solid hsl(228, 3%, 72%);
     border-radius: 2px;
+    color: white;
+    padding: 5px;
 }
 

@@ -14,12 +14,12 @@
         <h2>Advanced Search</h2>
         <h4>Find all pages with</h4>
 
-        <form>
+        <form action="https://www.google.com/search" id="search_form">
 
         
             <div>
                 <label>all these words: </label>
-                <input>
+                <input name="as_q">
             </div>
     
             
@@ -27,21 +27,21 @@
 
             <div>
                 <label>this exact word or phrase:</label>
-                <input>
+                <input name="as_epq"> 
             </div>
             
             <br>
 
             <div>
                 <label>any of these words:</label>
-                <input>
+                <input name="as_oq">
             </div>
             
             <br>
             
             <div>
                 <label>none of these words:</label>
-                <input>
+                <input name="as_eq">
             </div>
             <div>
                 <button type="submit" id="submit_button">Advanced Search</button>
